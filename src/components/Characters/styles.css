@@ -1,0 +1,27 @@
+.characters {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  margin: 5vw 5vh;
+}
+
+.characters__img {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25vw;
+  padding: 10px;
+  text-align: center;
+  border: black solid 1px;
+  border-radius: 150px;
+  margin-bottom: 15px;
+}
+.Alive {
+  background-color: rgb(119, 255, 255);
+}
+.Dead {
+  background-color: rgb(255, 109, 104);
+}
+.unknown {
+  background-color: rgb(255, 252, 72);
+}
